@@ -25,7 +25,7 @@ export default function BottomTabNavigator() {
         options={{
           headerShown: false,
           tabBarIcon: ({ color }) => (
-            <TabBarIcon name="ios-code" color={color} />
+            <TabBarIcon name="home-outline"color={color} />
           ),
         }}
       />
@@ -35,7 +35,7 @@ export default function BottomTabNavigator() {
         options={{
           headerShown: false,
           tabBarIcon: ({ color }) => (
-            <TabBarIcon name="ios-code" color={color} />
+            <TabBarIcon  name="settings-outline" color={color} />
           ),
         }}
       />
